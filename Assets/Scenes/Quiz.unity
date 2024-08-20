@@ -456,6 +456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 324053879}
   - component: {fileID: 324053878}
+  - component: {fileID: 324053880}
   - component: {fileID: 324053877}
   - component: {fileID: 324053876}
   m_Layer: 5
@@ -551,6 +552,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &324053880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324053875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba358b78d6032400b9e2cf070bd18d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 18074334}
+  buttonA: {fileID: 1635344947}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,6 +1222,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631886274}
   m_CullTransparentMesh: 1
+--- !u!114 &1635344947 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8921107330507220996, guid: fb2e2956e94404d629f25a6a86228130, type: 3}
+  m_PrefabInstance: {fileID: 477009841230906471}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611f6fb80c37f4f518109b78c16df853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1654856108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,7 +1502,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbbfe3b980a2c4d28b8c80f79971b505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answerText: {fileID: 7607420638942081504}
 --- !u!224 &4527858617519046375
 RectTransform:
   m_ObjectHideFlags: 0
